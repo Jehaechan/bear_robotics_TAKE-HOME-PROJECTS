@@ -14,6 +14,19 @@ void init() {
 	add_account(10, 11111111);
 	add_account(10, 22222222);
 	add_account(10, 33333333);
+
+	add_account(11, 44444444);
+	add_account(11, 55555555);
+
+	add_account(12, 66666666);
+	add_account(12, 77777777);
+	add_account(12, 88888888);
+	add_account(12, 99999999);
+
+	add_account(13, 12345678);
+
+	add_account(14, 87654321);
+	add_account(14, 12341234);
 }
 
 int insert_card() {

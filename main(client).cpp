@@ -4,8 +4,9 @@
 #include "main.h"
 
 int main() {
-	init();
+	init();				// for testing
 	int account_idx = 0;
+	int token = -1;
 STEP1:
 	int card_num = insert_card();
 	if (verify_card_num(card_num) == false) {
@@ -20,7 +21,6 @@ STEP1:
 	}
 
 STEP2:
-	int token;
 	if ((token = verify_pin_num(card_num, get_pin())) < 0) {
 		printf("Wrong PIN Number!\n");
 		{
@@ -73,6 +73,7 @@ STEP3:
 
 END:
 	printf("END!\n");
-	return_token(token);
+	if (token != -1)
+		return_token(token);
 	return 0;
 }
