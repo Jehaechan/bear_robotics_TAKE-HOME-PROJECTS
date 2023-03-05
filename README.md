@@ -61,3 +61,6 @@ Several accounts have been registered in the database for testing.
 - Enter: 2
 - Enter service: 1
 - Enter: 1
+
+### Database
+- This project used in-memory db so the data is initialized each time it is executed.
