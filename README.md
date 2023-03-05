@@ -14,7 +14,7 @@ $ ./API.out
 1. Select service - 1. See Balance 2. Deposit 3. Withdraw
 1. Go back to step 1 / step 4 / or just terminate program(You can choose).
 
-*For each step, simple version of error handling was implemented for incorrect input*
+*For each step, simple version of error handling is implemented for incorrect input*
 
 ### Testing
 Several accounts have been registered in the database for testing.
