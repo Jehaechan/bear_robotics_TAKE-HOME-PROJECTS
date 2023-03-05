@@ -16,7 +16,7 @@ $ ./API.out
 
 *For each step, simple version of error handling was implemented for incorrect input*
 
-### Testcases
+### Testing
 Several accounts have been registered in the database for testing.
 | CARD NUMBER | PIN | ACCOUNT | DEPOSIT |
 | :--: | :--: | :--: | --: |
@@ -36,3 +36,28 @@ Several accounts have been registered in the database for testing.
 | -- | ---- | -------- | - |
 | 14 | 5000 | 87654321 | 0 |
 | 14 | 5000 | 12341234 | 0 |
+
+### Testcase(In order)
+
+*You can see some error handlings if you use tiled commands*
+
+- ~~card num(integer val): 30~~
+- ~~press: 1~~
+- card num(integer val): 10
+- ~~Please enter your PIN: 2000~~
+- ~~press: 1~~
+- Please enter your PIN: 1000
+- ~~Which Account?4~~
+- Which Account? 3
+- ~~Enter service: 4~~
+- Enter service: 1
+- ~~Enter: 2~~
+- Enter service: 2
+- Insert Cash: 30000
+- Enter: 2
+- Enter service: 3 
+- Enter an amount: 40000
+- Enter an amount: 25555
+- Enter: 2
+- Enter service: 1
+- Enter: 1
