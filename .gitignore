@@ -1,0 +1,5 @@
+#Visual Studio
+*.vcxproj*
+*.filters*
+*.user*
+*Debug*
