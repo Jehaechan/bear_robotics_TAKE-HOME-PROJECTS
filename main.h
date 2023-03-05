@@ -6,10 +6,10 @@
 // for testing
 void init() {
 	add_user(10, 1000);
-	add_user(11, 1000);
-	add_user(12, 1000);
-	add_user(13, 1000);
-	add_user(14, 1000);
+	add_user(11, 2000);
+	add_user(12, 3000);
+	add_user(13, 4000);
+	add_user(14, 5000);
 
 	add_account(10, 11111111);
 	add_account(10, 22222222);
