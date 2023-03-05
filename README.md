@@ -51,14 +51,23 @@ Several accounts have been registered in the database for testing.
 - Which Account? 3
 - ~~Enter service: 4~~
 - Enter service: 1
-- ~~Enter: 2~~
+- Enter: 2
 - Enter service: 2
 - Insert Cash: 30000
 - Enter: 2
 - Enter service: 3 
-- Enter an amount: 40000
+- ~~Enter an amount: 40000~~
 - Enter an amount: 25555
-- Enter: 2
+- Enter: 3
+- card num(integer val): 11
+- Please enter your PIN: 2000
+- Which Account? 1
+- Enter service: 2
+- Insert Cash: 10000
+- Enter: 3
+- card num(integer val): 10
+- Please enter your PIN: 1000
+- Which Account? 3
 - Enter service: 1
 - Enter: 1
 
